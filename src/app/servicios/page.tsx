@@ -104,7 +104,7 @@ export default function ServiciosPage() {
                         <div className="group flex flex-col bg-slate-50 dark:bg-slate-800 rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-300 border border-slate-200 dark:border-slate-700">
                             <div className="relative h-48 overflow-hidden">
                                 <Image
-                                    src="/Logistica.png"
+                                    src="/logistica.png"
                                     alt="Modern corporate office building glass facade"
                                     fill
                                     className="object-cover group-hover:scale-110 transition-transform duration-500"
