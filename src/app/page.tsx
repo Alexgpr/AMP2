@@ -227,8 +227,15 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
           <div className="group flex flex-col rounded-2xl overflow-hidden bg-white dark:bg-[#111] border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-xl transition-all">
-            <div className="h-48 bg-slate-200">
-              <img alt="Hotel Luxury" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBW2SUAoRqOLnZrh93IXtDGcsXoXSt24_RGbEfe_bbHixMWWUMA7mo4yYGs5UulydCekeZwCGtURECYL3mmkGldMjtOanxzrs2UWFfLyQBjTfv72St17OcsGIDVjq40BPOm9HGKJqZ1msV4qhqEnnZrt-1Cjsn4fYY3IGgDKI_rP-pcxuHvoP4Y3P-wrNaZryEr691G43sHjW_Y-28lMy8oKZPjj2kenh1Zsd1Xtt2bQafiEFaQjfovSGHfcB4YnktfuJqHtcHPhleu" />
+            <div className=" relative h-48 bg-slate-200">
+              <Image
+                src="/exito1.png"
+                alt="Hotel Luxury"
+                width={600}
+                height={600}
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              //sizes="(max-width: 768px) 100vw, 33vw"
+              />
             </div>
             <div className="p-8 flex flex-col gap-4">
               <div className="flex items-center gap-2">
@@ -240,8 +247,15 @@ export default function Home() {
             </div>
           </div>
           <div className="group flex flex-col rounded-2xl overflow-hidden bg-white dark:bg-[#111] border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-xl transition-all">
-            <div className="h-48 bg-slate-200">
-              <img alt="Convention Center" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAEJ4x7P1s-losYy4UvZ_5KzCcMGURJRAU28sAy6xobCjCCm385iyVAwHInIL4fcQIhFM9lSZyCc_eHV49shhr-dFTF11fpffGdEpPjmlFIDjK3xlYSLVzfumFdOhFeUgogpf-eL1obuHwO6MSN6yEeJZy5rjaEjkyE54RPQwnPpfYv73LU39-T7A2bgpiBQ5eUOtZMnYpKeACbH2F1U-GQJUJMPHIalbIcNHFLQxipjyw6pWbcF_9k3A9FWb8UsWVwxDMLgGi1Tpk" />
+            <div className="relative h-48 bg-slate-200">
+              <Image
+                src="/exito1.png"
+                alt="Hotel Luxury"
+                width={600}
+                height={600}
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              //sizes="(max-width: 768px) 100vw, 33vw"
+              />
             </div>
             <div className="p-8 flex flex-col gap-4">
               <div className="flex items-center gap-2">
@@ -253,8 +267,15 @@ export default function Home() {
             </div>
           </div>
           <div className="group flex flex-col rounded-2xl overflow-hidden bg-white dark:bg-[#111] border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-xl transition-all">
-            <div className="h-48 bg-slate-200">
-              <img alt="Hospitality" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBW2SUAoRqOLnZrh93IXtDGcsXoXSt24_RGbEfe_bbHixMWWUMA7mo4yYGs5UulydCekeZwCGtURECYL3mmkGldMjtOanxzrs2UWFfLyQBjTfv72St17OcsGIDVjq40BPOm9HGKJqZ1msV4qhqEnnZrt-1Cjsn4fYY3IGgDKI_rP-pcxuHvoP4Y3P-wrNaZryEr691G43sHjW_Y-28lMy8oKZPjj2kenh1Zsd1Xtt2bQafiEFaQjfovSGHfcB4YnktfuJqHtcHPhleu" />
+            <div className="relative h-48 bg-slate-200">
+              <Image
+                src="/exito1.png"
+                alt="Hotel Luxury"
+                width={600}
+                height={600}
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              //sizes="(max-width: 768px) 100vw, 33vw"
+              />
             </div>
             <div className="p-8 flex flex-col gap-4">
               <div className="flex items-center gap-2">
