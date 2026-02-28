@@ -18,9 +18,9 @@ export default function Home() {
           />
           <div className="absolute inset-0 bg-black/60 dark:bg-black/70" />
         </div>
-        <div className="flex min-h-[600px] lg:min-h-[720px] flex-col bg-cover bg-center bg-no-repeat relative items-start justify-center px-6 md:px-20 py-20" >
+        <div className="container mx-auto flex  flex-col bg-cover bg-center bg-no-repeat relative items-start justify-center px-6 md:px-4 py-20" >
           <div className="max-w-[750px] flex flex-col gap-2 z-10">
-            <div className="relative w-[300px] h-[120px] md:w-[400px] md:h-[250px] animate-in zoom-in duration-700 delay-300">
+            <div className="relative w-[250px] h-[130px] md:w-[400px] md:h-[250px] animate-in zoom-in duration-700 delay-300">
               <Image
                 src="/logo.png"
                 alt="AMP Valet Parking Services Logo"
@@ -216,7 +216,7 @@ export default function Home() {
 
       {/* Casos de éxito */}
       <section className="w-full py-6 md:py-8 lg:py-12 bg-white dark:bg-slate-900/50 flex flex-col items-center">
-        <div className="grid grid-cols-1 md:grid-cols-3  gap-6 mb-16 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 px-6 md:px-4 gap-6 mb-16 max-w-7xl mx-auto">
           <div className="flex flex-col gap-3">
             <span className="text-brand-red font-bold tracking-[0.2em] uppercase text-sm ">Resultados</span>
             <h2 className="text-navy dark:text-slate-100 text-5xl font-black tracking-tight">
